@@ -1,0 +1,7 @@
+node_modules/*
+logs/access/*.log
+logs/application/*.log
+logs/sql/*.log
+/.vscode/
+.env
+yarn.lock

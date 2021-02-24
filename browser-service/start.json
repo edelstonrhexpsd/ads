@@ -1,0 +1,20 @@
+{
+    "apps":[
+      {
+        "name": "Tron-rpc服务",
+        "script": "./rpc.js"
+      },
+      {
+        "name": "统一回调服务",
+        "script": "./app/event/RequestEvent.js"
+      },
+      {
+        "name": "Tron-充值服务",
+        "script": "./app/event/TronBlockEvent.js"
+      },
+      {
+        "name": "Private-充值服务",
+        "script": "./app/event/PrivateBlockEvent.js"
+      }
+    ]
+}

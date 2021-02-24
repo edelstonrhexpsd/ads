@@ -1,0 +1,42 @@
+{
+  "name": "tron-service",
+  "version": "1.0.0",
+  "description": "tron-service is koa2 project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "koa",
+    "async"
+  ],
+  "author": "Michael Liao",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:zhengsen/tron-service.git"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.0.0",
+    "bluebird-retry": "^0.11.0",
+    "decimal.js": "^10.2.0",
+    "dotenv": "^8.1.0",
+    "hprose": "^2.0.51",
+    "jayson": "^3.1.0",
+    "ethers": "^4.0.47",
+    "koa": "^2.8.1",
+    "koa-bodyparser": "3.2.0",
+    "koa-log4": "^2.3.2",
+    "koa-router": "7.0.0",
+    "mime": "1.3.4",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.7.0",
+    "mz": "2.4.0",
+    "node-schedule": "^1.3.2",
+    "nunjucks": "2.4.2",
+    "request": "^2.88.0",
+    "sequelize": "^5.21.2",
+    "sequelize-cli": "^5.5.1",
+    "tronweb": "^3.0.0"
+  }
+}
